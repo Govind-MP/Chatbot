@@ -1,0 +1,56 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey", "greetings"],
+    "bot_response": "Hello! I'm your travel guide assistant. Which state would you like to explore?",
+    "required_words": ["hello"]
+  },
+  {
+    "response_type": "travel_kerala",
+    "user_input": ["kerala", "gods own country", "south india", "kerala tourism", "kerala places", "kerala travel"],
+    "bot_response": "Kerala, Gods Own Country! Famous for its backwaters, beaches, and hill stations. Must-visit places include: \n1. Munnar - Tea plantations & hills\n2. Alleppey - Houseboat tours\n3. Kovalam - Beautiful beaches\n4. Thekkady - Wildlife sanctuary\n5. Wayanad - Adventure tourism\nBest time to visit: October to March.",
+    "required_words": ["kerala"]
+  },
+  {
+    "response_type": "travel_goa",
+    "user_input": ["goa", "goa beaches", "goa tourism", "goa travel"],
+    "bot_response": "Welcome to Goa! The party capital of India offers:\n1. North Goa - Baga, Calangute beaches for nightlife\n2. South Goa - Palolem, Colva for peaceful beaches\n3. Old Goa churches\n4. Spice plantations\n5. Water sports activities\nBest time to visit: November to February.",
+    "required_words": ["goa"]
+  },
+  {
+    "response_type": "travel_rajasthan",
+    "user_input": ["rajasthan", "desert tourism", "rajasthan travel", "rajasthan places"],
+    "bot_response": "Experience royal Rajasthan!\nMust-visit cities include:\n1. Jaipur - Pink City, Amber Fort\n2. Udaipur - Lake Palace, City Palace\n3. Jodhpur - Blue City, Mehrangarh Fort\n4. Jaisalmer - Desert camping, Sam dunes\n5. Pushkar - Sacred lake, Camel fair\nBest time to visit: October to March.",
+    "required_words": ["rajasthan"]
+  },
+  {
+    "response_type": "travel_cost",
+    "user_input": ["cost", "budget", "expensive", "cheap", "price", "how much", "money"],
+    "bot_response": "Travel costs vary by state and style. Generally:\nBudget: Rs.1500-2000/day\nMid-range: Rs.3000-5000/day\nLuxury: Rs.8000+/day\nThis includes accommodation, food, and local transport.",
+    "required_words": ["cost"]
+  },
+  {
+    "response_type": "travel_weather",
+    "user_input": ["weather", "climate", "temperature", "rain"],
+    "bot_response": "India's weather varies by region:\nNorth: Hot summers, cold winters\nSouth: Tropical climate\nHills: Cool throughout year\nWould you like specific weather information for any state?",
+    "required_words": ["weather"]
+  },
+  {
+    "response_type": "travel_safety",
+    "user_input": ["safe", "safety", "security", "dangerous"],
+    "bot_response": "Travel safety tips for India:\n1. Keep emergency contacts handy\n2. Book accommodations in advance\n3. Use registered transport services\n4. Keep valuables secure\n5. Respect local customs",
+    "required_words": ["safe"]
+  },
+  {
+    "response_type": "default",
+    "user_input": ["what", "where", "how", "why", "when"],
+    "bot_response": "I can help you explore various Indian states! Just mention the state name you're interested in (like Kerala, Goa, Rajasthan) or ask about specific travel aspects like costs, weather, or safety.",
+    "required_words": []
+  },
+  {
+    "response_type": "default",
+    "user_input": ["bro"],
+    "bot_response": "Para Bro",
+    "required_words": ["bro"]
+  }
+]
